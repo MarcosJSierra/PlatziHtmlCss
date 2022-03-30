@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+}
+
+#two {
+    background-color: green;
+    position: relative;
+    bottom: 15px;
+}
+
+.parrafo {
+    position: relative;
+    top: 25%;
+}
+
+.texto-titulo {
+    position: relative;
+    top: 20%;
+}
+
+p {
+    text-align: center;
+}
+
+.contenedor {
+    border: 2px black dotted;
+    width: 200px;
+    height: 100px;
+    position:relative;
+    top: 15px;
+    margin: 1.5rem;
+    background-color: gray;
+    border-radius: 10%;
+}
+
+.titulo {
+    border: 2px black dotted;
+    position:absolute;
+    width: 100px;
+    height: 30px;
+    left: 50px;
+    top: -15px;
+    background-color: red;
+    border-radius: 10%;
+}
